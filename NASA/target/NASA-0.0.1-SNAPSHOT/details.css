@@ -1,0 +1,173 @@
+body {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	color: white;
+  	font-family: Avenir UltraLight;
+}
+
+#background-img {
+  
+  background-image: url("Assignment2Images/nebula-background.png"), url("Assignment2Images/Black Vignette.png");
+     background-repeat:no-repeat;
+   background-size:cover;
+   height:100%;
+   width:100%;
+   background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  filter: blur(4px) brightness(75%);
+  position: absolute;
+  transform: scale(1.1); 
+  
+}
+
+.foreground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    padding: 0;
+  	border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: left;
+}
+
+.title {
+	padding-left: 50px;
+	padding-top: 10px;
+	text-align:left;
+	margin-top:0px;
+	float:left;
+	margin:0px;
+	line-height:50px;
+	font-family: Savoye;
+	font-size: 200%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	display: block;
+	font-size: 200%;
+	text-align: left;
+	font-family: Avenir UltraLight;
+}
+
+#all_details {
+	display: block;
+}
+
+#main_pic {
+	display:block;
+	float: left;
+	margin-top: 5%;
+}
+#main_pic img {
+	height: 500px;
+	width: 500px;
+}
+
+
+.text {
+	overflow: auto;
+	font-size: 125%;
+}
+
+
+input[type=search] {
+	float: left;
+	display:inline-block;
+	position: relative;
+  	top: 10px;
+  	height: 30px;
+    width: 350px;
+    right:10px;
+    font-family: Avenir Italic;
+}
+
+#year_start, #year_end {
+	width: 175px;
+}
+
+a {
+	color: white;
+}
+
+
+input[type=image] {
+  width: 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border:0;
+  position: relative;
+  right:15px;
+  bottom:15px;
+}
+
+.search-wrapper {
+	display:inline-block;
+	float: left;
+}
+
+.search_fields {
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: right;
+  	float: left;
+  	margin-left: 40%;
+}
+
+.radio {
+	color: white;
+	float:right;
+	display:inline-block;
+	position: absolute;
+	line-height:52px;
+	padding-right: 60px;
+	margin-left: 2.5%;
+}
+
+.link{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color: white;
+  padding:0;
+  font-family:inherit;
+  font-size:inherit;
+}
+
+
+#map {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    color: black;
+    z-index: 2;
+    }
+
+#mapicon {
+  width: 2%;
+  float: left;
+  border:0;
+  position: absolute;
+  display: inline-block;
+  padding-top: 0.75%;
+}

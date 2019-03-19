@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Savoye;
+  src: url("Assignment2Images/Savoye.woff");
+}
+
+@font-face {
+  font-family: Avenir Regular;
+  src: url("Assignment2Images/Avenir Next/AvenirNext-Regular.ttf");
+}
+
+@font-face {
+  font-family: Avenir Italic;
+  src: url("Assignment2Images/Avenir Next/AvenirNext-Italic.ttf");
+}
+
+@font-face {
+  font-family: Avenir UltraLight;
+  src: url("Assignment2Images/Avenir Next/AvenirNext-UltraLight.ttf");
+}
+
+@font-face {
+  font-family: Avenir UltraLight Italic;
+  src: url("Assignment2Images/Avenir Next/AvenirNext-UltraLightItalic.ttf");
+}
+
+@font-face {
+  font-family: Avenir Medium;
+  src: url("Assignment2Images/Avenir Next/AvenirNext-Medium.ttf");
+}
